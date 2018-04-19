@@ -1,0 +1,45 @@
+(export (version D)
+  (design
+    (source /home/kaspar/projects/ruler/ruler.sch)
+    (date "Thu 19 Apr 2018 14:56:27 BST")
+    (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source ruler.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref J1)
+      (value Conn_01x01)
+      (footprint custom:pcbart)
+      (libsource (lib conn) (part Conn_01x01))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5AD89FB0)))
+  (libparts
+    (libpart (lib conn) (part Conn_01x01)
+      (description "Generic connector, single row, 01x01")
+      (docs ~)
+      (footprints
+        (fp Connector*:*_??x*mm*)
+        (fp Connector*:*1x??x*mm*)
+        (fp Pin?Header?Straight?1X*)
+        (fp Pin?Header?Angled?1X*)
+        (fp Socket?Strip?Straight?1X*)
+        (fp Socket?Strip?Angled?1X*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_01x01))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive)))))
+  (libraries
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib)))
+  (nets
+    (net (code 1) (name "Net-(J1-Pad1)")
+      (node (ref J1) (pin 1)))))
