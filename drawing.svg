@@ -26,9 +26,9 @@
      showgrid="false"
      inkscape:current-layer="g3359"
      inkscape:document-units="mm"
-     inkscape:cy="439.22292"
-     inkscape:cx="290.9318"
-     inkscape:zoom="1.215328"
+     inkscape:cy="345.31987"
+     inkscape:cx="91.926172"
+     inkscape:zoom="9.7226238"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -1940,7 +1940,7 @@
      inkscape:label="B.Mask" />
   <g
      style="display:none"
-     inkscape:label="B.Silk-disabled"
+     inkscape:label="B.Silk"
      inkscape:groupmode="layer"
      id="g3353" />
   <g
@@ -3486,7 +3486,7 @@
      inkscape:label="F.Mask"
      inkscape:groupmode="layer"
      id="g3357"
-     style="display:inline;opacity:0.70499998">
+     style="display:none;opacity:0.70499998">
     <g
        clip-path="url(#clipPath12324)"
        id="g7241-2"
@@ -4107,7 +4107,7 @@
        height="7.4496994"
        x="-178.01878"
        y="85.547798"
-       transform="scale(-1,1)" />
+       transform="matrix(-1,0,0,1,0,-0.11081415)" />
     <g
        clip-path="url(#clipPath12316)"
        transform="matrix(0.99163506,0,0,0.965061,7.1665053,3.513288)"
@@ -4134,24 +4134,23 @@
        height="7.4496994"
        x="-181.40244"
        y="107.05721"
-       transform="scale(-1,1)" />
+       transform="matrix(-1,0,0,1,0,0.08158776)" />
   </g>
   <g
      inkscape:label="F.Silk"
      inkscape:groupmode="layer"
      id="g3359"
      style="display:inline">
-    <rect
-       y="92.929108"
-       x="16.818707"
-       height="14.167264"
-       width="53.299995"
+    <path
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07055555;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 16.818706,92.892824 49.818704,92.892824 49.818704,99.731584 49.818704,107.24151 16.818706,107.24151 Z"
        id="rect12237"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07055555;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
     <g
        style="display:inline"
        id="g7241"
-       transform="matrix(0.0743622,0,0,0.0743622,23.138118,49.834293)">
+       transform="matrix(0.0743622,0,0,0.0743622,12.79329,49.834293)">
       <g
          id="g6603">
         <g
@@ -4761,9 +4760,9 @@
     </g>
     <rect
        y="92.929108"
-       x="122.67023"
+       x="142.97023"
        height="14.167264"
-       width="53.299995"
+       width="32.999996"
        id="rect12237-7"
        style="display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07055555;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
