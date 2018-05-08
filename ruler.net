@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kaspar/projects/ruler/ruler.sch)
-    (date "Thu 19 Apr 2018 14:56:27 BST")
+    (date "Tue 08 May 2018 14:47:03 BST")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref J1)
       (value Conn_01x01)
-      (footprint custom:pcbart)
+      (footprint drawing:drawing)
       (libsource (lib conn) (part Conn_01x01))
       (sheetpath (names /) (tstamps /))
       (tstamp 5AD89FB0)))
