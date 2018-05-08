@@ -83,8 +83,6 @@ $EndComp
 Wire Wire Line
 	4025 5100 4025 5225
 Wire Wire Line
-	4025 4800 4025 4750
-Wire Wire Line
 	3925 4300 3950 4300
 Wire Wire Line
 	4025 4300 4025 4375
@@ -170,8 +168,6 @@ $EndComp
 Wire Wire Line
 	5900 5125 5900 5250
 Wire Wire Line
-	5900 4825 5900 4775
-Wire Wire Line
 	4975 4325 5300 4325
 Wire Wire Line
 	5700 4325 5775 4325
@@ -223,8 +219,6 @@ F 3 "" H 7475 5175 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7475 5050 7475 5175
-Wire Wire Line
-	7475 4750 7475 4700
 Wire Wire Line
 	6825 4100 6825 4250
 Wire Wire Line
@@ -279,8 +273,6 @@ F 3 "" H 9250 5325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 5200 9250 5325
-Wire Wire Line
-	9250 4900 9250 4825
 Wire Wire Line
 	8575 4400 8750 4400
 Wire Wire Line
@@ -405,8 +397,6 @@ Wire Wire Line
 	8575 4150 8500 4150
 Wire Wire Line
 	8575 4150 8575 4400
-Text GLabel 9825 4350 1    50   Input ~ 0
-LED_V+
 Text GLabel 6825 4100 0    50   Input ~ 0
 SW_V+
 Text GLabel 4925 4175 0    50   Input ~ 0
@@ -453,92 +443,8 @@ Wire Wire Line
 Connection ~ 5775 4325
 Wire Wire Line
 	5775 4325 5900 4325
-$Comp
-L device:R R9
-U 1 1 5AF2AF93
-P 9825 4650
-F 0 "R9" V 9905 4650 50  0000 C CNN
-F 1 "1k" V 9825 4650 50  0000 C CNN
-F 2 "KiCad/Resistors_SMD.pretty:R_2512" V 9755 4650 50  0001 C CNN
-F 3 "" H 9825 4650 50  0001 C CNN
-	1    9825 4650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9825 4350 9825 4500
-Wire Wire Line
-	9825 4800 9825 4825
-Wire Wire Line
-	9825 4825 9250 4825
-Connection ~ 9250 4825
-Wire Wire Line
-	9250 4825 9250 4775
-Text GLabel 8050 4225 1    50   Input ~ 0
+Text GLabel 4175 3775 1    50   Input ~ 0
 LED_V+
-$Comp
-L device:R R7
-U 1 1 5AF2CC92
-P 8050 4525
-F 0 "R7" V 8130 4525 50  0000 C CNN
-F 1 "1k" V 8050 4525 50  0000 C CNN
-F 2 "KiCad/Resistors_SMD.pretty:R_2010" V 7980 4525 50  0001 C CNN
-F 3 "" H 8050 4525 50  0001 C CNN
-	1    8050 4525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 4225 8050 4375
-Wire Wire Line
-	8050 4675 8050 4700
-Wire Wire Line
-	8050 4700 7475 4700
-Connection ~ 7475 4700
-Wire Wire Line
-	7475 4700 7475 4625
-Text GLabel 6450 4300 1    50   Input ~ 0
-LED_V+
-$Comp
-L device:R R5
-U 1 1 5AF2DBAE
-P 6450 4600
-F 0 "R5" V 6530 4600 50  0000 C CNN
-F 1 "1k" V 6450 4600 50  0000 C CNN
-F 2 "KiCad/Resistors_SMD.pretty:R_1218" V 6380 4600 50  0001 C CNN
-F 3 "" H 6450 4600 50  0001 C CNN
-	1    6450 4600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 4300 6450 4450
-Wire Wire Line
-	6450 4750 6450 4775
-Wire Wire Line
-	5900 4775 6450 4775
-Connection ~ 5900 4775
-Wire Wire Line
-	5900 4775 5900 4700
-Text GLabel 4400 4275 1    50   Input ~ 0
-LED_V+
-$Comp
-L device:R R3
-U 1 1 5AF2FE68
-P 4400 4575
-F 0 "R3" V 4480 4575 50  0000 C CNN
-F 1 "1k" V 4400 4575 50  0000 C CNN
-F 2 "KiCad/Resistors_SMD.pretty:R_1210" V 4330 4575 50  0001 C CNN
-F 3 "" H 4400 4575 50  0001 C CNN
-	1    4400 4575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 4275 4400 4425
-Wire Wire Line
-	4400 4725 4400 4750
-Wire Wire Line
-	4025 4750 4400 4750
-Connection ~ 4025 4750
-Wire Wire Line
-	4025 4750 4025 4675
 Wire Wire Line
 	3525 3950 3525 4300
 Connection ~ 3525 4300
@@ -549,4 +455,112 @@ Wire Wire Line
 Connection ~ 3950 4300
 Wire Wire Line
 	3950 4300 4025 4300
+$Comp
+L device:D D1
+U 1 1 5AF423A2
+P 4175 4125
+F 0 "D1" V 4221 4046 50  0000 R CNN
+F 1 "SMA" V 4130 4046 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMA" H 4175 4125 50  0001 C CNN
+F 3 "" H 4175 4125 50  0001 C CNN
+	1    4175 4125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4175 3775 4175 3975
+Wire Wire Line
+	4175 4275 4175 4300
+Wire Wire Line
+	4175 4300 4025 4300
+Connection ~ 4025 4300
+Wire Wire Line
+	4025 4675 4025 4800
+Wire Wire Line
+	5900 4700 5900 4825
+Text GLabel 6050 3800 1    50   Input ~ 0
+LED_V+
+$Comp
+L device:D D2
+U 1 1 5AF48CEA
+P 6050 4150
+F 0 "D2" V 6096 4071 50  0000 R CNN
+F 1 "SMB" V 6005 4071 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMB" H 6050 4150 50  0001 C CNN
+F 3 "" H 6050 4150 50  0001 C CNN
+	1    6050 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 3800 6050 4000
+Wire Wire Line
+	6050 4300 6050 4325
+Wire Wire Line
+	6050 4325 5900 4325
+Connection ~ 5900 4325
+Text GLabel 7625 3725 1    50   Input ~ 0
+LED_V+
+$Comp
+L device:D D3
+U 1 1 5AF49F44
+P 7625 4075
+F 0 "D3" V 7671 3996 50  0000 R CNN
+F 1 "SMC" V 7580 3996 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMC" H 7625 4075 50  0001 C CNN
+F 3 "" H 7625 4075 50  0001 C CNN
+	1    7625 4075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7625 3725 7625 3925
+Wire Wire Line
+	7625 4225 7625 4250
+Wire Wire Line
+	7625 4250 7475 4250
+Connection ~ 7475 4250
+Text GLabel 9400 3875 1    50   Input ~ 0
+LED_V+
+$Comp
+L device:D D4
+U 1 1 5AF4B2D9
+P 9400 4225
+F 0 "D4" V 9446 4146 50  0000 R CNN
+F 1 "SOD-123" V 9355 4146 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SOD-123" H 9400 4225 50  0001 C CNN
+F 3 "" H 9400 4225 50  0001 C CNN
+	1    9400 4225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 3875 9400 4075
+Wire Wire Line
+	9400 4375 9400 4400
+Wire Wire Line
+	9400 4400 9250 4400
+Connection ~ 9250 4400
+Wire Wire Line
+	9250 4775 9250 4900
+$Comp
+L device:D D5
+U 1 1 5AF4E276
+P 9950 4225
+F 0 "D5" V 9996 4146 50  0000 R CNN
+F 1 "SOD-323" V 9905 4146 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SOD-323" H 9950 4225 50  0001 C CNN
+F 3 "" H 9950 4225 50  0001 C CNN
+	1    9950 4225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:D D6
+U 1 1 5AF4E2E0
+P 10550 4200
+F 0 "D6" V 10596 4121 50  0000 R CNN
+F 1 "SOD-523" V 10505 4121 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SOD-523" H 10550 4200 50  0001 C CNN
+F 3 "" H 10550 4200 50  0001 C CNN
+	1    10550 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7475 4625 7475 4750
 $EndSCHEMATC
