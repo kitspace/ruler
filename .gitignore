@@ -2,3 +2,4 @@ _autosave-*.kicad_pcb
 *.kicad_pcb-bak
 images/
 .svg2shenzhen-cache/
+*.bak
