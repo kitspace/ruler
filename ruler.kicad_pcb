@@ -131,7 +131,7 @@
   )
 
   (module digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_6x6mm_Vertical_SMD (layer F.Cu) (tedit 59AEC703) (tstamp 5AF218C6)
-    (at 122.905001 77.9375)
+    (at 184.22 104.04)
     (descr http://www.ckswitches.com/media/1471/pts645.pdf)
     (path /5AF1AB0F)
     (fp_text reference SW1 (at 0 -4.27) (layer F.SilkS)

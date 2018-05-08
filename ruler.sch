@@ -172,22 +172,20 @@ Wire Wire Line
 Wire Wire Line
 	3000 2475 3000 2350
 Wire Wire Line
-	2075 1825 2075 1975
-Wire Wire Line
 	2075 1975 2400 1975
 Wire Wire Line
-	2800 1975 3000 1975
+	2800 1975 2875 1975
 Wire Wire Line
 	3000 1975 3000 2050
 $Comp
 L switches:SW_Push SW3
 U 1 1 5AF1BC93
-P 3300 1575
-F 0 "SW3" H 3350 1675 50  0000 L CNN
-F 1 "SW_Push" H 3300 1515 50  0000 C CNN
-F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push" H 3300 1775 50  0001 C CNN
-F 3 "" H 3300 1775 50  0001 C CNN
-	1    3300 1575
+P 2600 1725
+F 0 "SW3" H 2650 1825 50  0000 L CNN
+F 1 "SW_Push" H 2600 1665 50  0000 C CNN
+F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push" H 2600 1925 50  0001 C CNN
+F 3 "" H 2600 1925 50  0001 C CNN
+	1    2600 1725
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -410,13 +408,13 @@ Wire Wire Line
 Text GLabel 4400 1025 1    50   Input ~ 0
 LED_V+
 Wire Wire Line
-	4400 1025 4400 1250
+	4400 1025 4400 1100
 Connection ~ 4400 1250
 Text GLabel 2950 1425 0    50   Input ~ 0
 SW_V+
 Text GLabel 3600 1525 1    50   Input ~ 0
 LED_V+
-Text GLabel 2075 1825 0    50   Input ~ 0
+Text GLabel 2025 1825 0    50   Input ~ 0
 SW_V+
 Text GLabel 3000 1950 1    50   Input ~ 0
 LED_V+
@@ -435,4 +433,54 @@ Connection ~ 3000 1975
 Wire Wire Line
 	3600 1525 3600 1575
 Connection ~ 3600 1575
+$Comp
+L switches:SW_Push SW6
+U 1 1 5AF214E5
+P 3300 1575
+F 0 "SW6" H 3075 1775 50  0000 L CNN
+F 1 "6x6mm" H 3300 1515 50  0000 C CNN
+F 2 "custom:FSM2JSMA" H 3300 1775 50  0001 C CNN
+F 3 "" H 3300 1775 50  0001 C CNN
+	1    3300 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L switches:SW_Push SW7
+U 1 1 5AF21638
+P 4100 900
+F 0 "SW7" H 3875 1100 50  0000 L CNN
+F 1 "6x6mm" H 4100 840 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_KMR2" H 4100 1100 50  0001 C CNN
+F 3 "" H 4100 1100 50  0001 C CNN
+	1    4100 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 900  3725 900 
+Wire Wire Line
+	3725 900  3725 1000
+Connection ~ 3725 1000
+Wire Wire Line
+	4300 900  4300 1100
+Wire Wire Line
+	4300 1100 4400 1100
+Connection ~ 4400 1100
+Wire Wire Line
+	4400 1100 4400 1250
+Wire Wire Line
+	2400 1725 2075 1725
+Wire Wire Line
+	2075 1725 2075 1825
+Wire Wire Line
+	2025 1825 2075 1825
+Connection ~ 2075 1825
+Wire Wire Line
+	2075 1825 2075 1975
+Wire Wire Line
+	2800 1725 2875 1725
+Wire Wire Line
+	2875 1725 2875 1975
+Connection ~ 2875 1975
+Wire Wire Line
+	2875 1975 3000 1975
 $EndSCHEMATC
