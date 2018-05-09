@@ -26,17 +26,6 @@ F 3 "" H 10225 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW5
-U 1 1 5AF1AB0F
-P 5500 4325
-F 0 "SW5" H 5575 4400 50  0000 L CNN
-F 1 "FSMLPU" H 5500 4265 50  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 5500 4525 50  0001 C CNN
-F 3 "" H 5500 4525 50  0001 C CNN
-	1    5500 4325
-	1    0    0    -1  
-$EndComp
-$Comp
 L conn:USB_OTG J1
 U 1 1 5AF1AC17
 P 950 2600
@@ -120,15 +109,15 @@ Wire Wire Line
 	900  3050 900  3100
 Connection ~ 900  3050
 $Comp
-L switches:SW_Push SW4
+L switches:SW_Push_Dual SW4
 U 1 1 5AF1B6F7
-P 7175 4250
-F 0 "SW4" H 7225 4350 50  0000 L CNN
-F 1 "FSMCT" H 7175 4190 50  0000 C CNN
-F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push2" H 7175 4450 50  0001 C CNN
-F 3 "" H 7175 4450 50  0001 C CNN
-	1    7175 4250
-	1    0    0    -1  
+P 7250 4775
+F 0 "SW4" H 7300 4875 50  0000 L CNN
+F 1 "FSMCT" H 7250 4715 50  0000 C CNN
+F 2 "custom:FSMCT" H 7250 4975 50  0001 C CNN
+F 3 "" H 7250 4975 50  0001 C CNN
+	1    7250 4775
+	0    1    1    0   
 $EndComp
 $Comp
 L device:R R3
@@ -165,10 +154,6 @@ F 3 "" H 5900 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5900 5125 5900 5250
-Wire Wire Line
-	4975 4325 5300 4325
-Wire Wire Line
-	5700 4325 5775 4325
 Wire Wire Line
 	5900 4325 5900 4400
 $Comp
@@ -220,10 +205,6 @@ Wire Wire Line
 Wire Wire Line
 	6825 4100 6825 4250
 Wire Wire Line
-	6825 4250 6975 4250
-Wire Wire Line
-	7375 4250 7475 4250
-Wire Wire Line
 	7475 4250 7475 4325
 $Comp
 L switches:SW_Push SW3
@@ -271,10 +252,6 @@ F 3 "" H 9250 5325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 5200 9250 5325
-Wire Wire Line
-	8575 4400 8750 4400
-Wire Wire Line
-	9150 4400 9250 4400
 Wire Wire Line
 	9250 4400 9250 4475
 Wire Wire Line
@@ -404,17 +381,6 @@ SW_V+
 Wire Wire Line
 	3475 4300 3525 4300
 $Comp
-L switches:SW_Push SW6
-U 1 1 5AF214E5
-P 8950 4400
-F 0 "SW6" H 8725 4600 50  0000 L CNN
-F 1 "FSM2JSM" H 8950 4340 50  0000 C CNN
-F 2 "custom:FSM2JSMA" H 8950 4600 50  0001 C CNN
-F 3 "" H 8950 4600 50  0001 C CNN
-	1    8950 4400
-	1    0    0    -1  
-$EndComp
-$Comp
 L switches:SW_Push SW1
 U 1 1 5AF21638
 P 3725 3950
@@ -456,12 +422,12 @@ Wire Wire Line
 $Comp
 L device:D D1
 U 1 1 5AF423A2
-P 4175 4125
-F 0 "D1" V 4221 4046 50  0000 R CNN
-F 1 "SMA" V 4130 4046 50  0000 R CNN
-F 2 "KiCad/Diodes_SMD.pretty:D_SMA" H 4175 4125 50  0001 C CNN
-F 3 "" H 4175 4125 50  0001 C CNN
-	1    4175 4125
+P 6050 4150
+F 0 "D1" V 6096 4071 50  0000 R CNN
+F 1 "SMA" V 6005 4071 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMA" H 6050 4150 50  0001 C CNN
+F 3 "" H 6050 4150 50  0001 C CNN
+	1    6050 4150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -480,12 +446,12 @@ LED_V+
 $Comp
 L device:D D2
 U 1 1 5AF48CEA
-P 6050 4150
-F 0 "D2" V 6096 4071 50  0000 R CNN
-F 1 "SMB" V 6005 4071 50  0000 R CNN
-F 2 "KiCad/Diodes_SMD.pretty:D_SMB" H 6050 4150 50  0001 C CNN
-F 3 "" H 6050 4150 50  0001 C CNN
-	1    6050 4150
+P 9400 4225
+F 0 "D2" V 9446 4146 50  0000 R CNN
+F 1 "SMB" V 9355 4146 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMB" H 9400 4225 50  0001 C CNN
+F 3 "" H 9400 4225 50  0001 C CNN
+	1    9400 4225
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -500,12 +466,12 @@ LED_V+
 $Comp
 L device:D D3
 U 1 1 5AF49F44
-P 7625 4075
-F 0 "D3" V 7671 3996 50  0000 R CNN
-F 1 "SMC" V 7580 3996 50  0000 R CNN
-F 2 "KiCad/Diodes_SMD.pretty:D_SMC" H 7625 4075 50  0001 C CNN
-F 3 "" H 7625 4075 50  0001 C CNN
-	1    7625 4075
+P 4175 4125
+F 0 "D3" V 4221 4046 50  0000 R CNN
+F 1 "SMC" V 4130 4046 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SMC" H 4175 4125 50  0001 C CNN
+F 3 "" H 4175 4125 50  0001 C CNN
+	1    4175 4125
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -520,12 +486,12 @@ LED_V+
 $Comp
 L device:D D4
 U 1 1 5AF4B2D9
-P 9400 4225
-F 0 "D4" V 9446 4146 50  0000 R CNN
-F 1 "SOD-123" V 9355 4146 50  0000 R CNN
-F 2 "KiCad/Diodes_SMD.pretty:D_SOD-123" H 9400 4225 50  0001 C CNN
-F 3 "" H 9400 4225 50  0001 C CNN
-	1    9400 4225
+P 7625 4075
+F 0 "D4" V 7671 3996 50  0000 R CNN
+F 1 "SOD-123" V 7580 3996 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SOD-123" H 7625 4075 50  0001 C CNN
+F 3 "" H 7625 4075 50  0001 C CNN
+	1    7625 4075
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -560,7 +526,77 @@ F 3 "" H 10550 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
+	3550 4300 3525 4300
+$Comp
+L switches:SW_Push SW6
+U 1 1 5AF214E5
+P 8950 4400
+F 0 "SW6" H 8725 4600 50  0000 L CNN
+F 1 "FSM2JSM" H 8950 4340 50  0000 C CNN
+F 2 "custom:FSM2JSMA" H 8950 4600 50  0001 C CNN
+F 3 "" H 8950 4600 50  0001 C CNN
+	1    8950 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4400 9250 4400
+Wire Wire Line
+	8575 4400 8750 4400
+$Comp
+L switches:SW_Push_Dual SW5
+U 1 1 5AF1AB0F
+P 5575 4600
+F 0 "SW5" H 5650 4675 50  0000 L CNN
+F 1 "TL3315" H 5575 4540 50  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 5575 4800 50  0001 C CNN
+F 3 "" H 5575 4800 50  0001 C CNN
+	1    5575 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 4325 5375 4325
+Wire Wire Line
+	5575 4325 5775 4325
+Wire Wire Line
+	5375 4325 5375 4400
+Connection ~ 5375 4400
+Wire Wire Line
+	5375 4400 5375 4800
+Wire Wire Line
+	5575 4325 5575 4400
+Connection ~ 5575 4400
+Wire Wire Line
+	5575 4400 5575 4800
+Wire Wire Line
+	6825 4250 7075 4250
+Wire Wire Line
+	7275 4250 7475 4250
+Wire Wire Line
+	7075 4250 7075 4325
+Wire Wire Line
+	7275 4250 7275 4325
+Wire Wire Line
+	7075 4325 6950 4325
+Wire Wire Line
+	6950 4325 6950 4525
+Wire Wire Line
 	7475 4625 7475 4750
 Wire Wire Line
-	3550 4300 3525 4300
+	7275 4325 7350 4325
+Wire Wire Line
+	7350 4325 7350 4525
+Wire Wire Line
+	7050 4575 7050 4975
+Wire Wire Line
+	7250 4575 7250 4975
+Wire Wire Line
+	6950 4525 7050 4525
+Wire Wire Line
+	7050 4525 7050 4575
+Connection ~ 7050 4575
+Wire Wire Line
+	7250 4575 7250 4525
+Wire Wire Line
+	7250 4525 7350 4525
+Connection ~ 7250 4575
 $EndSCHEMATC
