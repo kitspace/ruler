@@ -26,14 +26,14 @@ F 3 "" H 10225 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L switches:SW_Push SW6
+L switches:SW_Push SW5
 U 1 1 5AF1AB0F
-P 8950 4400
-F 0 "SW6" H 8725 4600 50  0000 L CNN
-F 1 "6x6mm" H 8950 4340 50  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_6x6mm_Vertical_SMD" H 8950 4600 50  0001 C CNN
-F 3 "" H 8950 4600 50  0001 C CNN
-	1    8950 4400
+P 5500 4325
+F 0 "SW5" H 5275 4525 50  0000 L CNN
+F 1 "FSMLPU" H 5500 4265 50  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 5500 4525 50  0001 C CNN
+F 3 "" H 5500 4525 50  0001 C CNN
+	1    5500 4325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -122,19 +122,19 @@ Connection ~ 900  3050
 $Comp
 L switches:SW_Push SW4
 U 1 1 5AF1B6F7
-P 5500 4325
-F 0 "SW4" H 5550 4425 50  0000 L CNN
-F 1 "SW_Push" H 5500 4265 50  0000 C CNN
-F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push2" H 5500 4525 50  0001 C CNN
-F 3 "" H 5500 4525 50  0001 C CNN
-	1    5500 4325
+P 7175 4250
+F 0 "SW4" H 7225 4350 50  0000 L CNN
+F 1 "FSMCT" H 7175 4190 50  0000 C CNN
+F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push2" H 7175 4450 50  0001 C CNN
+F 3 "" H 7175 4450 50  0001 C CNN
+	1    7175 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L device:R R3
 U 1 1 5AF1B6FD
 P 5900 4550
-F 0 "R4" V 5980 4550 50  0000 C CNN
+F 0 "R3" V 5980 4550 50  0000 C CNN
 F 1 "1k" V 5900 4550 50  0000 C CNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0603" V 5830 4550 50  0001 C CNN
 F 3 "" H 5900 4550 50  0001 C CNN
@@ -172,21 +172,21 @@ Wire Wire Line
 Wire Wire Line
 	5900 4325 5900 4400
 $Comp
-L switches:SW_Push SW3
+L switches:SW_Push SW2
 U 1 1 5AF1BC93
 P 3750 4300
-F 0 "SW3" H 3800 4400 50  0000 L CNN
-F 1 "SW_Push" H 3750 4240 50  0000 C CNN
-F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push" H 3750 4500 50  0001 C CNN
+F 0 "SW2" H 3800 4400 50  0000 L CNN
+F 1 "EVQPE1" H 3750 4240 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_EVQPE1" H 3750 4500 50  0001 C CNN
 F 3 "" H 3750 4500 50  0001 C CNN
 	1    3750 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L device:R R4
 U 1 1 5AF1BC99
 P 7475 4475
-F 0 "R6" V 7555 4475 50  0000 C CNN
+F 0 "R4" V 7555 4475 50  0000 C CNN
 F 1 "1k" V 7475 4475 50  0000 C CNN
 F 2 "KiCad/Resistors_SMD.pretty:R_0805" V 7405 4475 50  0001 C CNN
 F 3 "" H 7475 4475 50  0001 C CNN
@@ -226,10 +226,10 @@ Wire Wire Line
 Wire Wire Line
 	7475 4250 7475 4325
 $Comp
-L switches:SW_Push SW2
+L switches:SW_Push SW3
 U 1 1 5AF1BCB7
 P 5500 4075
-F 0 "SW2" H 5550 4175 50  0000 L CNN
+F 0 "SW3" H 5550 4175 50  0000 L CNN
 F 1 "B3U-1000P" H 5500 4015 50  0000 C CNN
 F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 5500 4275 50  0001 C CNN
 F 3 "" H 5500 4275 50  0001 C CNN
@@ -237,10 +237,10 @@ F 3 "" H 5500 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L device:R R5
 U 1 1 5AF1BCBD
 P 9250 4625
-F 0 "R8" V 9330 4625 50  0000 C CNN
+F 0 "R5" V 9330 4625 50  0000 C CNN
 F 1 "1k" V 9250 4625 50  0000 C CNN
 F 2 "KiCad/Resistors_SMD.pretty:R_1206" V 9180 4625 50  0001 C CNN
 F 3 "" H 9250 4625 50  0001 C CNN
@@ -404,14 +404,14 @@ SW_V+
 Wire Wire Line
 	3475 4300 3525 4300
 $Comp
-L switches:SW_Push SW5
+L switches:SW_Push SW6
 U 1 1 5AF214E5
-P 7175 4250
-F 0 "SW5" H 6950 4450 50  0000 L CNN
-F 1 "FSM2JSMA" H 7175 4190 50  0000 C CNN
-F 2 "custom:FSM2JSMA" H 7175 4450 50  0001 C CNN
-F 3 "" H 7175 4450 50  0001 C CNN
-	1    7175 4250
+P 8950 4400
+F 0 "SW6" H 8725 4600 50  0000 L CNN
+F 1 "FSM2JSM" H 8950 4340 50  0000 C CNN
+F 2 "custom:FSM2JSMA" H 8950 4600 50  0001 C CNN
+F 3 "" H 8950 4600 50  0001 C CNN
+	1    8950 4400
 	1    0    0    -1  
 $EndComp
 $Comp
