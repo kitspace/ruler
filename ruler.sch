@@ -83,8 +83,6 @@ $EndComp
 Wire Wire Line
 	4025 5100 4025 5225
 Wire Wire Line
-	3925 4300 3950 4300
-Wire Wire Line
 	4025 4300 4025 4375
 $Comp
 L power:+5V #PWR02
@@ -176,12 +174,12 @@ Wire Wire Line
 $Comp
 L switches:SW_Push SW3
 U 1 1 5AF1BC93
-P 5500 4075
-F 0 "SW3" H 5550 4175 50  0000 L CNN
-F 1 "SW_Push" H 5500 4015 50  0000 C CNN
-F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push" H 5500 4275 50  0001 C CNN
-F 3 "" H 5500 4275 50  0001 C CNN
-	1    5500 4075
+P 3750 4300
+F 0 "SW3" H 3800 4400 50  0000 L CNN
+F 1 "SW_Push" H 3750 4240 50  0000 C CNN
+F 2 "smisioto.eu/kicad_libs/modules/w_switch.pretty:smd_push" H 3750 4500 50  0001 C CNN
+F 3 "" H 3750 4500 50  0001 C CNN
+	1    3750 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -230,12 +228,12 @@ Wire Wire Line
 $Comp
 L switches:SW_Push SW2
 U 1 1 5AF1BCB7
-P 3725 4300
-F 0 "SW2" H 3775 4400 50  0000 L CNN
-F 1 "B3U-1000P" H 3725 4240 50  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 3725 4500 50  0001 C CNN
-F 3 "" H 3725 4500 50  0001 C CNN
-	1    3725 4300
+P 5500 4075
+F 0 "SW2" H 5550 4175 50  0000 L CNN
+F 1 "B3U-1000P" H 5500 4015 50  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 5500 4275 50  0001 C CNN
+F 3 "" H 5500 4275 50  0001 C CNN
+	1    5500 4075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -563,4 +561,6 @@ F 3 "" H 10550 4200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7475 4625 7475 4750
+Wire Wire Line
+	3550 4300 3525 4300
 $EndSCHEMATC
