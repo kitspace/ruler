@@ -29,7 +29,7 @@ $Comp
 L switches:SW_Push SW5
 U 1 1 5AF1AB0F
 P 5500 4325
-F 0 "SW5" H 5275 4525 50  0000 L CNN
+F 0 "SW5" H 5575 4400 50  0000 L CNN
 F 1 "FSMLPU" H 5500 4265 50  0000 C CNN
 F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 5500 4525 50  0001 C CNN
 F 3 "" H 5500 4525 50  0001 C CNN
@@ -230,7 +230,7 @@ L switches:SW_Push SW3
 U 1 1 5AF1BCB7
 P 5500 4075
 F 0 "SW3" H 5550 4175 50  0000 L CNN
-F 1 "B3U-1000P" H 5500 4015 50  0000 C CNN
+F 1 "B3U1000P" H 5500 4015 50  0000 C CNN
 F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 5500 4275 50  0001 C CNN
 F 3 "" H 5500 4275 50  0001 C CNN
 	1    5500 4075
