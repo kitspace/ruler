@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.0mm"
+   height="50.0mm"
+   viewBox="0 0 50.000000 50.000000"
+   id="svg5378"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="leds_text.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="57.188618"
+     inkscape:cy="88.52315"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g5949"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="754"
+     inkscape:window-x="0"
+     inkscape:window-y="14"
+     inkscape:window-maximized="0"
+     borderlayer="true">
+    <inkscape:grid
+       id="grid5929"
+       units="mm"
+       type="xygrid"
+       empspacing="1"
+       spacingy="2.54"
+       spacingx="2.54" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5380" />
+  <metadata
+     id="metadata5383">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <text
+       xml:space="preserve"
+       style="font-size:11.28888798px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-width:0.28222221px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="7.5548177"
+       y="8.947402"
+       id="text5967"
+       sodipodi:linespacing="1000%"><tspan
+         sodipodi:role="line"
+         id="tspan5969"
+         x="7.5548177"
+         y="8.947402"
+         style="stroke-width:0.28222221px" /></text>
+  </g>
+  <g
+     id="g5933"
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     inkscape:label="[fixed] BG">
+    <rect
+       id="rect5935"
+       style="stroke:none;fill-opacity:1;fill:#FFFFFF"
+       height="50.0"
+       width="50.0"
+       y="0"
+       x="0" />
+  </g>
+  <g
+     id="g5937"
+     inkscape:groupmode="layer"
+     inkscape:label="Edge.Cuts" />
+  <g
+     id="g5939"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu-disabled" />
+  <g
+     id="g5941"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask-disabled" />
+  <g
+     id="g5943"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Silk-disabled" />
+  <g
+     id="g5945"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Cu-disabled" />
+  <g
+     id="g5947"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Mask-disabled" />
+  <g
+     id="g5949"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Silk">
+    <text
+       xml:space="preserve"
+       style="font-size:3.36232328px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;stroke:none;stroke-width:0.28222221px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="13.336618"
+       y="26.831167"
+       id="text5971"
+       sodipodi:linespacing="1000%"><tspan
+         sodipodi:role="line"
+         id="tspan5973"
+         x="13.336618"
+         y="26.831167"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.46944427px;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold';fill:#000000;stroke:none;stroke-width:0.28222221px">LEDs</tspan></text>
+  </g>
+  <g
+     id="g5951"
+     inkscape:groupmode="layer"
+     inkscape:label="Drill" />
+</svg>
