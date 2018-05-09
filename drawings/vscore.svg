@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.0mm"
+   height="50.0mm"
+   viewBox="0 0 50.000000 50.000000"
+   id="svg11062"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="vscore.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="31.678384"
+     inkscape:cx="64.993486"
+     inkscape:cy="87.374956"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g11633"
+     showgrid="true"
+     inkscape:window-width="454"
+     inkscape:window-height="752"
+     inkscape:window-x="0"
+     inkscape:window-y="14"
+     inkscape:window-maximized="0"
+     borderlayer="true">
+    <inkscape:grid
+       id="grid11613"
+       units="mm"
+       type="xygrid"
+       empspacing="1"
+       spacingy="2.54"
+       spacingx="2.54" />
+  </sodipodi:namedview>
+  <defs
+     id="defs11064">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6-7"
+       effect="spiro" />
+  </defs>
+  <metadata
+     id="metadata11067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1" />
+  <g
+     id="g11617"
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     inkscape:label="[fixed] BG">
+    <rect
+       id="rect11619"
+       style="stroke:none;fill-opacity:1;fill:#FFFFFF"
+       height="50.0"
+       width="50.0"
+       y="0"
+       x="0" />
+  </g>
+  <g
+     id="g11621"
+     inkscape:groupmode="layer"
+     inkscape:label="Edge.Cuts" />
+  <g
+     id="g11623"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu-disabled" />
+  <g
+     id="g11625"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask-disabled" />
+  <g
+     id="g11627"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Silk-disabled" />
+  <g
+     id="g11629"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Cu-disabled" />
+  <g
+     id="g11631"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Mask-disabled" />
+  <g
+     id="g11633"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Silk">
+    <text
+       transform="matrix(0.99998156,0.00607353,-0.00607353,0.99998156,0,0)"
+       xml:space="preserve"
+       style="font-size:3.17744756px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;stroke:#000000;stroke-width:0.07943619px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="20.730883"
+       y="23.017147"
+       id="text5386-7"
+       sodipodi:linespacing="1000%"><tspan
+         sodipodi:role="line"
+         id="tspan5388-2"
+         x="20.730883"
+         y="23.017147"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tomson Talks';-inkscape-font-specification:'Tomson Talks';fill:#000000;stroke:#000000;stroke-width:0.07943619px">V-Score</tspan></text>
+    <path
+       sodipodi:nodetypes="cccssc"
+       inkscape:connector-curvature="0"
+       inkscape:original-d="M 15.341469,24.412881 C 15.641172,24.329666 15.334086,23.697586 15.261278,23.552036 15.094654,23.218896 15.64137,23.381831 15.369904,23.079643 15.20402,22.89498 16.523131,22.221392 16.372598,22.032177 15.787891,21.297216 16.372598,22.032177 17.411317,21.76169 18.110571,21.579602 19.590366,22.167655 20.313475,22.072986"
+       inkscape:path-effect="#path-effect14530-0-3-6-7"
+       id="path14528-2"
+       d="M 15.341469,24.412881 C 15.258482,24.134937 15.231056,23.840526 15.261278,23.552036 15.278158,23.390906 15.312962,23.231319 15.369904,23.079643 15.544067,22.615732 15.924521,22.243772 16.372598,22.032177 16.697541,21.87873 17.054551,21.804727 17.411317,21.76169 18.385588,21.644163 19.386293,21.751503 20.313475,22.072986"
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.10028326;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     id="g11635"
+     inkscape:groupmode="layer"
+     inkscape:label="Drill" />
+</svg>
