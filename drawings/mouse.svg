@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.0mm"
+   height="50.0mm"
+   viewBox="0 0 50.000000 50.000000"
+   id="svg11062"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="mouse.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="127.75338"
+     inkscape:cy="84.834532"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g5519"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="754"
+     inkscape:window-x="0"
+     inkscape:window-y="14"
+     inkscape:window-maximized="0"
+     borderlayer="true">
+    <inkscape:grid
+       id="grid11613"
+       units="mm"
+       type="xygrid"
+       empspacing="1"
+       spacingy="2.54"
+       spacingx="2.54" />
+  </sodipodi:namedview>
+  <defs
+     id="defs11064">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6-7"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-5"
+       effect="spiro" />
+  </defs>
+  <metadata
+     id="metadata11067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1" />
+  <g
+     id="g11617"
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     inkscape:label="[fixed] BG">
+    <rect
+       id="rect11619"
+       style="stroke:none;fill-opacity:1;fill:#FFFFFF"
+       height="50.0"
+       width="50.0"
+       y="0"
+       x="0" />
+  </g>
+  <g
+     id="g11621"
+     inkscape:groupmode="layer"
+     inkscape:label="Edge.Cuts" />
+  <g
+     id="g11623"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu-disabled" />
+  <g
+     id="g11625"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask-disabled" />
+  <g
+     id="g11627"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Silk-disabled" />
+  <g
+     id="g11629"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Cu-disabled" />
+  <g
+     id="g11631"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Mask-disabled" />
+  <g
+     id="g11633"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Silk">
+    <g
+       style="display:inline"
+       id="g5519"
+       transform="translate(-127.07592,-69.163032)">
+      <g
+         transform="translate(-108.63663,16.710806)"
+         id="g16712"
+         style="display:inline">
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 256.81371,76.628698 C 256.52606,76.341046 256.60903,75.522506 256.94368,75.346414 257.25933,75.180323 257.35047,75.0332 257.35257,74.686376 257.35477,74.324058 257.64792,73.900347 257.8961,73.900768 258.00108,73.900946 258.18815,74.052104 258.31181,74.236675 258.43548,74.421247 258.672,74.62832 258.83742,74.696839 259.24575,74.865976 259.35021,75.318 259.06824,75.695671 258.77131,76.093378 258.57441,76.059631 258.34464,75.571653 258.2374,75.343906 258.10693,75.131158 258.0547,75.09888 258.00247,75.0666 257.89704,75.413346 257.82041,75.869424 257.68395,76.681492 257.58369,76.831129 257.176,76.831129 257.08808,76.831129 256.92505,76.740035 256.81371,76.628698 Z"
+           id="path16692" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 255.54722,75.082901 C 255.45619,74.989309 255.21687,74.781907 255.01539,74.622006 254.59724,74.290157 254.5627,74.126245 254.85518,73.861555 255.21212,73.538528 255.39237,73.641751 255.71095,74.351629 256.06745,75.146035 255.98159,75.529538 255.54722,75.082901 Z"
+           id="path16680" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 259.27052,74.338057 C 259.27052,74.080137 259.38695,73.87021 259.70813,73.549026 260.21757,73.039585 260.57122,72.986852 260.75616,73.392752 260.86246,73.626059 260.84864,73.713546 260.6752,73.905198 260.50126,74.097395 259.47637,74.689474 259.31761,74.689474 259.29171,74.689474 259.27052,74.531337 259.27052,74.338057 Z"
+           id="path16678" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 256.58925,74.035181 C 256.23881,73.765498 255.8906,73.218081 255.8897,72.93541 255.88866,72.610636 256.2837,72.216091 256.54223,72.283699 256.69865,72.324603 256.80242,72.5486 256.94257,73.147859 257.04662,73.592778 257.1311,74.020207 257.13031,74.097701 257.12827,74.29584 256.89257,74.268604 256.58925,74.035181 Z"
+           id="path16676" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 254.50653,73.382189 C 254.39683,73.272498 254.54744,72.998694 254.71747,72.998694 254.80383,72.998694 254.87449,73.100141 254.87449,73.224132 254.87449,73.436334 254.65497,73.53063 254.50653,73.382189 Z"
+           id="path16674" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 258.09866,73.157601 C 258.06083,73.059012 258.05605,72.936006 258.08804,72.88425 258.12002,72.832495 258.08989,72.666572 258.02107,72.515532 257.73434,71.88623 258.60716,71.151141 258.92839,71.751379 259.10558,72.08246 259.073,72.262459 258.7351,72.819087 258.41035,73.354068 258.21411,73.458446 258.09866,73.157601 Z"
+           id="path16672" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 261.07401,73.012496 C 261.07401,72.852719 261.39232,72.634967 261.51503,72.710804 261.6909,72.819495 261.52502,73.111413 261.28739,73.111413 261.17003,73.111413 261.07401,73.0669 261.07401,73.012496 Z"
+           id="path16670" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 255.70955,72.167034 C 255.61736,71.926803 255.6948,71.616743 255.86078,71.561479 255.95278,71.530846 256.00167,71.63287 256.00167,71.855462 256.00167,72.231609 255.81197,72.43394 255.70955,72.167034 Z"
+           id="path16668" />
+        <path
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           d="M 258.5942,71.274576 C 258.5942,71.017945 258.71676,70.744321 258.8317,70.744321 258.99611,70.744321 258.94611,71.156182 258.76328,71.307915 258.62543,71.422318 258.5942,71.416161 258.5942,71.274576 Z"
+           id="path16654" />
+      </g>
+      <text
+         sodipodi:linespacing="1000%"
+         id="text5386-5"
+         y="95.797882"
+         x="145.64423"
+         style="font-size:3.17744732px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;stroke:#000000;stroke-width:0.07943619px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tomson Talks';-inkscape-font-specification:'Tomson Talks';fill:#000000;stroke:#000000;stroke-width:0.07943619px"
+           y="95.797882"
+           x="145.64423"
+           id="tspan5388-7"
+           sodipodi:role="line">mouse </tspan></text>
+    </g>
+  </g>
+  <g
+     id="g11635"
+     inkscape:groupmode="layer"
+     inkscape:label="Drill" />
+</svg>
