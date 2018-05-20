@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "ruler")(type KiCad)(uri "$(KIPRJMOD)/ruler.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50.0mm"
+   height="50.0mm"
+   viewBox="0 0 50.000000 50.000000"
+   id="svg11062"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="chipmunk.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="95.777341"
+     inkscape:cy="51.75293"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g5491"
+     showgrid="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="754"
+     inkscape:window-x="0"
+     inkscape:window-y="14"
+     inkscape:window-maximized="0"
+     borderlayer="true">
+    <inkscape:grid
+       id="grid11613"
+       units="mm"
+       type="xygrid"
+       empspacing="1"
+       spacingy="2.54"
+       spacingx="2.54" />
+  </sodipodi:namedview>
+  <defs
+     id="defs11064">
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-0-3-6-7"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect14530-5"
+       effect="spiro" />
+  </defs>
+  <metadata
+     id="metadata11067">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1" />
+  <g
+     id="g11617"
+     sodipodi:insensitive="true"
+     inkscape:groupmode="layer"
+     inkscape:label="[fixed] BG">
+    <rect
+       id="rect11619"
+       style="stroke:none;fill-opacity:1;fill:#FFFFFF"
+       height="50.0"
+       width="50.0"
+       y="0"
+       x="0" />
+  </g>
+  <g
+     id="g11621"
+     inkscape:groupmode="layer"
+     inkscape:label="Edge.Cuts" />
+  <g
+     id="g11623"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Cu-disabled" />
+  <g
+     id="g11625"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Mask-disabled" />
+  <g
+     id="g11627"
+     inkscape:groupmode="layer"
+     inkscape:label="B.Silk-disabled" />
+  <g
+     id="g11629"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Cu-disabled" />
+  <g
+     id="g11631"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Mask-disabled" />
+  <g
+     id="g11633"
+     inkscape:groupmode="layer"
+     inkscape:label="F.Silk"
+     style="display:inline">
+    <g
+       style="display:inline"
+       id="g5519"
+       transform="translate(-127.07592,-69.163032)">
+      <g
+         style="display:inline"
+         id="g5505-3"
+         transform="matrix(-0.84371,0,0,0.84371,288.64474,10.472736)">
+        <g
+           style="display:inline"
+           id="g5491"
+           transform="matrix(-1.1852414,0,0,1.1852414,335.51475,-22.176824)">
+          <g
+             transform="translate(-150.05295,69.370236)"
+             id="g16808"
+             style="display:inline">
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 295.5104,38.628479 C 295.33103,38.502848 295.27514,38.342987 295.27514,37.955664 295.27514,37.532046 295.33182,37.397324 295.61627,37.144846 296.50538,36.355672 296.82928,35.994599 296.89967,35.714133 297.01026,35.273523 297.30199,34.869482 297.50954,34.869482 297.60829,34.869482 297.87673,35.052714 298.10608,35.276664 298.42787,35.590894 298.64221,35.697276 299.04497,35.742673 299.63522,35.809204 299.8966,36.072396 299.8966,36.600217 299.8966,36.987803 299.54447,37.598376 299.19012,37.825194 298.78396,38.08518 297.91896,38.280221 297.54062,38.197122 297.28208,38.140338 297.08895,38.183226 296.80055,38.361463 296.19443,38.736069 295.78499,38.820809 295.5104,38.628479 Z"
+               id="path16582" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 294.59882,36.616621 C 294.52165,36.523628 294.39858,36.447543 294.32534,36.447543 294.10992,36.447543 293.51254,35.746845 293.37404,35.331716 293.30373,35.12098 293.2462,34.700207 293.2462,34.396663 293.2462,33.965054 293.30491,33.786057 293.51557,33.575397 294.10674,32.984225 294.7896,33.690375 294.95771,35.066734 295.0164,35.5472 295.11023,36.087231 295.16622,36.266803 295.22221,36.446375 295.24127,36.636588 295.20857,36.689498 295.11323,36.843755 294.75144,36.800513 294.59882,36.616621 Z"
+               id="path16578" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 299.59847,35.374796 C 299.43053,34.93715 299.89031,33.224719 300.30952,32.726518 300.8665,32.064581 301.56062,32.438039 301.42718,33.327857 301.331,33.969264 300.91222,34.593182 300.21989,35.12655 299.76588,35.476317 299.6545,35.520812 299.59847,35.374796 Z"
+               id="path16574" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 295.7601,34.2988 C 295.11674,33.337051 295.05977,33.224564 294.9927,32.783612 294.94034,32.439322 294.98543,32.213899 295.18422,31.826078 295.50967,31.191151 295.91145,31.089138 296.27356,31.549491 296.60102,31.965785 296.66012,32.408717 296.55206,33.63673 296.44013,34.908682 296.26566,35.054541 295.7601,34.2988 Z"
+               id="path16572" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 298.07485,34.221349 C 298.00547,34.050863 297.86987,33.733841 297.77352,33.516858 297.50305,32.907747 297.47691,31.848129 297.72067,31.375203 297.89251,31.041831 297.98328,30.980688 298.30638,30.980688 298.82236,30.980688 299.12855,31.397692 299.19425,32.189897 299.23651,32.699517 299.18405,32.918039 298.84138,33.659914 298.61999,34.13919 298.38534,34.531326 298.31992,34.531326 298.25451,34.531326 298.14422,34.391836 298.07485,34.221349 Z"
+               id="path16570" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 293.09493,32.877141 C 292.96345,32.745661 293.01248,32.142686 293.1509,32.188826 293.3656,32.260392 293.4761,32.696521 293.31368,32.831314 293.23416,32.897311 293.13572,32.917933 293.09493,32.877141 Z"
+               id="path16552" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 301.21165,31.863651 C 301.08519,31.737194 301.12767,31.429877 301.30344,31.19949 301.56146,30.861303 301.73655,31.203191 301.5199,31.622155 301.34338,31.963499 301.3255,31.977504 301.21165,31.863651 Z"
+               id="path16550" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 295.44421,30.360736 C 295.36432,30.109003 295.46638,29.684424 295.6068,29.684424 295.72052,29.684424 295.86006,30.347747 295.77521,30.485032 295.67025,30.654869 295.51961,30.598304 295.44421,30.360736 Z"
+               id="path16548" />
+            <path
+               inkscape:connector-curvature="0"
+               style="fill:#000000"
+               d="M 298.2773,30.047052 C 298.18263,29.89387 298.36879,29.310732 298.52946,29.257176 298.6311,29.223294 298.66153,29.331352 298.63603,29.635633 298.60204,30.041173 298.40988,30.261561 298.2773,30.047052 Z"
+               id="path16546" />
+          </g>
+          <text
+             sodipodi:linespacing="1000%"
+             id="text5386-5-1"
+             y="110.20773"
+             x="142.13292"
+             style="font-size:3.17744732px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;stroke:#000000;stroke-width:0.07943619px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             xml:space="preserve"><tspan
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tomson Talks';-inkscape-font-specification:'Tomson Talks';fill:#000000;stroke:#000000;stroke-width:0.07943619px"
+               y="110.20773"
+               x="142.13292"
+               id="tspan5388-7-8"
+               sodipodi:role="line">ChipMunk</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g
+     id="g11635"
+     inkscape:groupmode="layer"
+     inkscape:label="Drill" />
+</svg>

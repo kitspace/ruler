@@ -23,11 +23,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="179.04324"
-     inkscape:cy="-38.128094"
+     inkscape:zoom="5.6"
+     inkscape:cx="126.19816"
+     inkscape:cy="28.856698"
      inkscape:document-units="mm"
-     inkscape:current-layer="g5519"
+     inkscape:current-layer="g5505-3"
      showgrid="true"
      inkscape:window-width="1366"
      inkscape:window-height="754"
@@ -74,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -197,9 +197,9 @@
       <g
          style="display:inline"
          id="g5505-3"
-         transform="matrix(-0.84371,0,0,0.84371,288.64474,10.472736)">
+         transform="matrix(0.84371,0,0,0.84371,14.694389,10.472736)">
         <g
-           transform="translate(-105.36396,53.906339)"
+           transform="matrix(0.8143807,0,0,0.8143807,-55.03785,63.810888)"
            id="g16745-5"
            style="display:inline">
           <path
@@ -251,12 +251,12 @@
         <text
            sodipodi:linespacing="1000%"
            id="text5386-5-1-3-6"
-           y="110.42143"
+           y="109.52545"
            x="158.83229"
            style="font-size:3.17744732px;line-height:1000%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;stroke:#000000;stroke-width:0.07943619px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Tomson Talks';-inkscape-font-specification:'Tomson Talks';fill:#000000;stroke:#000000;stroke-width:0.07943619px"
-             y="110.42143"
+             y="109.52545"
              x="158.83229"
              id="tspan5388-7-8-5-0"
              sodipodi:role="line">Weasel</tspan></text>
