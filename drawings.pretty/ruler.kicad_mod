@@ -3264,4 +3264,6 @@
 (pad 10 np_thru_hole circle (at 75.86037 4.56308) (size 0.49999998 0.49999998) (drill 0.49999998) (layers *.Cu *.Mask))
 (pad 11 np_thru_hole circle (at 75.86037 5.39341) (size 0.49999998 0.49999998) (drill 0.49999998) (layers *.Cu *.Mask))
 (pad 12 np_thru_hole circle (at 75.86037 6.22375) (size 0.49999998 0.49999998) (drill 0.49999998) (layers *.Cu *.Mask))
+(pad 13 np_thru_hole circle (at 75.87218 -19.485832) (size 0.49999998 0.49999998) (drill 0.49999998) (layers *.Cu *.Mask))
+(pad 14 np_thru_hole circle (at 75.86037 19.2285) (size 0.49999998 0.49999998) (drill 0.49999998) (layers *.Cu *.Mask))
 )
