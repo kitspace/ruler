@@ -1,6 +1,6 @@
 # Kitspace PCB Ruler
 
-A PCB design reference ruler made using Inkscape, [svg2shenzhen](https://github.com/badgeek/svg2shenzhen/) and KiCad.
+A PCB design reference ruler made using Inkscape, [svg2shenzhen](https://github.com/badgeek/svg2shenzhen/) and KiCad. It's up [on Kitspace](https://kitspace.org/boards/github.com/monostable/ruler/) of course.
 
 - You can use it as a ruler and as a reference for footprint sizes when working on a PCB design.
 - The front is a functioning circuit if you populate it. The LEDs will light up if you connect it via USB and press the buttons.
