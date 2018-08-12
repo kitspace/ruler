@@ -998,12 +998,12 @@ $EndComp
 $Comp
 L ruler-rescue:pspice_INDUCTOR L6
 U 1 1 5AF4B711
-P 8450 3125
-F 0 "L6" H 8450 3340 50  0000 C CNN
-F 1 "2x2mm" H 8450 3249 50  0000 C CNN
-F 2 "KiCad/Inductors.pretty:Inductor_Taiyo-Yuden_NR-20xx" H 8450 3125 50  0001 C CNN
-F 3 "" H 8450 3125 50  0001 C CNN
-	1    8450 3125
+P 8425 3325
+F 0 "L6" H 8425 3540 50  0000 C CNN
+F 1 "2x2mm" H 8425 3449 50  0000 C CNN
+F 2 "KiCad/Inductors.pretty:Inductor_Taiyo-Yuden_NR-20xx" H 8425 3325 50  0001 C CNN
+F 3 "" H 8425 3325 50  0001 C CNN
+	1    8425 3325
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1247,7 +1247,7 @@ U 1 1 5B70AFF0
 P 4375 2925
 F 0 "SW8" H 4425 3025 50  0000 L CNN
 F 1 "B3U" H 4375 2865 50  0000 C CNN
-F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_EVQPE1" H 4375 3125 50  0001 C CNN
+F 2 "brunoeagle/kicad-open-modules:B3U-1000P" H 4375 3125 50  0001 C CNN
 F 3 "" H 4375 3125 50  0001 C CNN
 	1    4375 2925
 	1    0    0    -1  
