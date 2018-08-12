@@ -1,6 +1,7 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
 LIBS:ruler-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -745,12 +746,12 @@ $EndComp
 $Comp
 L pspice:INDUCTOR L1
 U 1 1 5AF37627
-P 7650 3050
-F 0 "L1" H 7650 3265 50  0000 C CNN
-F 1 "1008" H 7650 3174 50  0000 C CNN
-F 2 "jnedbal/jakub.pretty:Inductor_1008" H 7650 3050 50  0001 C CNN
-F 3 "" H 7650 3050 50  0001 C CNN
-	1    7650 3050
+P 7675 3050
+F 0 "L1" H 7675 3265 50  0000 C CNN
+F 1 "1008" H 7675 3174 50  0000 C CNN
+F 2 "jnedbal/jakub.pretty:Inductor_1008" H 7675 3050 50  0001 C CNN
+F 3 "" H 7675 3050 50  0001 C CNN
+	1    7675 3050
 	1    0    0    -1  
 $EndComp
 $Comp
