@@ -507,12 +507,12 @@ Wire Wire Line
 $Comp
 L device:D D5
 U 1 1 5AF4E276
-P 9625 1300
-F 0 "D5" V 9671 1221 50  0000 R CNN
-F 1 "SOD-323" V 9580 1221 50  0000 R CNN
-F 2 "KiCad/Diodes_SMD.pretty:D_SOD-323" H 9625 1300 50  0001 C CNN
-F 3 "" H 9625 1300 50  0001 C CNN
-	1    9625 1300
+P 4800 2750
+F 0 "D5" V 4846 2671 50  0000 R CNN
+F 1 "SOD-323" V 4755 2671 50  0000 R CNN
+F 2 "KiCad/Diodes_SMD.pretty:D_SOD-323" H 4800 2750 50  0001 C CNN
+F 3 "" H 4800 2750 50  0001 C CNN
+	1    4800 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1205,4 +1205,73 @@ F 3 "" H 10075 5375 50  0001 C CNN
 	1    10075 5375
 	1    0    0    -1  
 $EndComp
+$Comp
+L device:R R?
+U 1 1 5B70AFDC
+P 4650 3150
+F 0 "R?" V 4730 3150 50  0000 C CNN
+F 1 "1k" V 4650 3150 50  0000 C CNN
+F 2 "KiCad/Resistors_SMD.pretty:R_0402" V 4580 3150 50  0001 C CNN
+F 3 "" H 4650 3150 50  0001 C CNN
+	1    4650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:LED LED?
+U 1 1 5B70AFE2
+P 4650 3575
+F 0 "LED?" H 4650 3675 50  0000 C CNN
+F 1 "0201" H 4650 3475 50  0000 C CNN
+F 2 "KiCad/LEDs.pretty:LED_0201" H 4650 3575 50  0001 C CNN
+F 3 "" H 4650 3575 50  0001 C CNN
+	1    4650 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B70AFE8
+P 4650 3850
+F 0 "#PWR?" H 4650 3600 50  0001 C CNN
+F 1 "GND" H 4650 3700 50  0000 C CNN
+F 2 "" H 4650 3850 50  0001 C CNN
+F 3 "" H 4650 3850 50  0001 C CNN
+	1    4650 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3725 4650 3850
+Wire Wire Line
+	4650 2925 4650 3000
+$Comp
+L switches:SW_Push SW?
+U 1 1 5B70AFF0
+P 4375 2925
+F 0 "SW?" H 4425 3025 50  0000 L CNN
+F 1 "B3U" H 4375 2865 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_EVQPE1" H 4375 3125 50  0001 C CNN
+F 3 "" H 4375 3125 50  0001 C CNN
+	1    4375 2925
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 2925 0    50   Input ~ 0
+SW_V+
+Wire Wire Line
+	4100 2925 4150 2925
+Text GLabel 4800 2400 1    50   Input ~ 0
+LED_V+
+Connection ~ 4150 2925
+Connection ~ 4575 2925
+Wire Wire Line
+	4575 2925 4650 2925
+Wire Wire Line
+	4800 2400 4800 2600
+Wire Wire Line
+	4800 2900 4800 2925
+Wire Wire Line
+	4800 2925 4650 2925
+Connection ~ 4650 2925
+Wire Wire Line
+	4650 3300 4650 3425
+Wire Wire Line
+	4175 2925 4150 2925
 $EndSCHEMATC
