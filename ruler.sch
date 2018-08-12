@@ -985,17 +985,6 @@ F 3 "" H 8800 5775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING14
-U 1 1 5AF42BAF
-P 9200 5750
-F 0 "DRAWING14" H 9200 5850 50  0000 C CNN
-F 1 "Conn_01x01" H 9200 5650 50  0000 C CNN
-F 2 "drawings:mouse" H 9200 5750 50  0001 C CNN
-F 3 "" H 9200 5750 50  0001 C CNN
-	1    9200 5750
-	1    0    0    -1  
-$EndComp
-$Comp
 L ruler-rescue:pspice_INDUCTOR L6
 U 1 1 5AF4B711
 P 8425 3325
@@ -1106,28 +1095,6 @@ F 3 "" H 6575 7025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING15
-U 1 1 5B01E53E
-P 7200 6250
-F 0 "DRAWING15" H 7200 6350 50  0000 C CNN
-F 1 "Conn_01x01" H 7200 6150 50  0000 C CNN
-F 2 "drawings:chipmunk" H 7200 6250 50  0001 C CNN
-F 3 "" H 7200 6250 50  0001 C CNN
-	1    7200 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING16
-U 1 1 5B01F029
-P 7225 5900
-F 0 "DRAWING16" H 7225 6000 50  0000 C CNN
-F 1 "Conn_01x01" H 7225 5800 50  0000 C CNN
-F 2 "drawings:weasel" H 7225 5900 50  0001 C CNN
-F 3 "" H 7225 5900 50  0001 C CNN
-	1    7225 5900
-	1    0    0    -1  
-$EndComp
-$Comp
 L ruler-rescue:conn_Conn_01x01 U14
 U 1 1 5B01F626
 P 1650 7275
@@ -1180,28 +1147,6 @@ F 1 "VSSOP" H 5130 7351 50  0000 L CNN
 F 2 "KiCad/Housings_SSOP.pretty:VSSOP-8_2.3x2mm_Pitch0.5mm" H 5050 7400 50  0001 C CNN
 F 3 "~" H 5050 7400 50  0001 C CNN
 	1    5050 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING17
-U 1 1 5B026222
-P 10725 5450
-F 0 "DRAWING17" H 10725 5550 50  0000 C CNN
-F 1 "Conn_01x01" H 10725 5350 50  0000 C CNN
-F 2 "drawings:ant" H 10725 5450 50  0001 C CNN
-F 3 "" H 10725 5450 50  0001 C CNN
-	1    10725 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING18
-U 1 1 5B0267EF
-P 10075 5375
-F 0 "DRAWING18" H 10075 5475 50  0000 C CNN
-F 1 "Conn_01x01" H 10075 5275 50  0000 C CNN
-F 2 "drawings:ant" H 10075 5375 50  0001 C CNN
-F 3 "" H 10075 5375 50  0001 C CNN
-	1    10075 5375
 	1    0    0    -1  
 $EndComp
 $Comp
