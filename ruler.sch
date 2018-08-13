@@ -383,12 +383,12 @@ Wire Wire Line
 $Comp
 L ruler-rescue:switches_SW_Push SW1
 U 1 1 5AF21638
-P 3400 1025
-F 0 "SW1" H 3175 1225 50  0000 L CNN
-F 1 "KMR2" H 3400 965 50  0000 C CNN
-F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_KMR2" H 3400 1225 50  0001 C CNN
-F 3 "" H 3400 1225 50  0001 C CNN
-	1    3400 1025
+P 4375 2925
+F 0 "SW1" H 4150 3125 50  0000 L CNN
+F 1 "KMR2" H 4375 2865 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_KMR2" H 4375 3125 50  0001 C CNN
+F 3 "" H 4375 3125 50  0001 C CNN
+	1    4375 2925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1189,12 +1189,12 @@ Wire Wire Line
 $Comp
 L ruler-rescue:switches_SW_Push SW8
 U 1 1 5B70AFF0
-P 4375 2925
-F 0 "SW8" H 4425 3025 50  0000 L CNN
-F 1 "B3U" H 4375 2865 50  0000 C CNN
-F 2 "brunoeagle/kicad-open-modules:B3U-1000P" H 4375 3125 50  0001 C CNN
-F 3 "" H 4375 3125 50  0001 C CNN
-	1    4375 2925
+P 3400 1025
+F 0 "SW8" H 3450 1125 50  0000 L CNN
+F 1 "KSR223" H 3400 965 50  0000 C CNN
+F 2 "OpenMusicKontrollers/omk.pretty:KSR" H 3400 1225 50  0001 C CNN
+F 3 "" H 3400 1225 50  0001 C CNN
+	1    3400 1025
 	1    0    0    -1  
 $EndComp
 Text GLabel 4100 2925 0    50   Input ~ 0
