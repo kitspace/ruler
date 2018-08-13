@@ -897,17 +897,6 @@ F 3 "" H 9700 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING6
-U 1 1 5AF3813A
-P 9650 6200
-F 0 "DRAWING6" H 9650 6300 50  0000 C CNN
-F 1 "Conn_01x01" H 9650 6100 50  0000 C CNN
-F 2 "drawings:capacitors_text" H 9650 6200 50  0001 C CNN
-F 3 "" H 9650 6200 50  0001 C CNN
-	1    9650 6200
-	1    0    0    -1  
-$EndComp
-$Comp
 L ruler-rescue:conn_Conn_01x01 DRAWING9
 U 1 1 5AF38772
 P 9075 6200
@@ -941,17 +930,6 @@ F 3 "" H 7725 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING12
-U 1 1 5AF3A08D
-P 7675 6225
-F 0 "DRAWING12" H 7675 6325 50  0000 C CNN
-F 1 "Conn_01x01" H 7675 6125 50  0000 C CNN
-F 2 "drawings:vscore" H 7675 6225 50  0001 C CNN
-F 3 "" H 7675 6225 50  0001 C CNN
-	1    7675 6225
-	1    0    0    -1  
-$EndComp
-$Comp
 L ruler-rescue:conn_Conn_01x01 U6
 U 1 1 5AF3E368
 P 1625 5625
@@ -971,17 +949,6 @@ F 1 "TSOP-0.95mm" H 1705 5851 50  0000 L CNN
 F 2 "KiCad/Housings_SSOP.pretty:TSOP-6_1.65x3.05mm_Pitch0.95mm" H 1625 5900 50  0001 C CNN
 F 3 "~" H 1625 5900 50  0001 C CNN
 	1    1625 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ruler-rescue:conn_Conn_01x01 DRAWING13
-U 1 1 5AF42ADB
-P 8800 5775
-F 0 "DRAWING13" H 8800 5875 50  0000 C CNN
-F 1 "Conn_01x01" H 8800 5675 50  0000 C CNN
-F 2 "drawings:mouse_bites" H 8800 5775 50  0001 C CNN
-F 3 "" H 8800 5775 50  0001 C CNN
-	1    8800 5775
 	1    0    0    -1  
 $EndComp
 $Comp
