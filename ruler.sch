@@ -111,12 +111,12 @@ Connection ~ 900  3050
 $Comp
 L ruler-rescue:switches_SW_Push_Dual SW4
 U 1 1 5AF1B6F7
-P 6925 1850
-F 0 "SW4" H 6975 1950 50  0000 L CNN
-F 1 "FSMCT" H 6925 1790 50  0000 C CNN
-F 2 "custom:FSMCT" H 6925 2050 50  0001 C CNN
-F 3 "" H 6925 2050 50  0001 C CNN
-	1    6925 1850
+P 4450 3225
+F 0 "SW4" H 4500 3325 50  0000 L CNN
+F 1 "FSMCT" H 4450 3165 50  0000 C CNN
+F 2 "custom:FSMCT" H 4450 3425 50  0001 C CNN
+F 3 "" H 4450 3425 50  0001 C CNN
+	1    4450 3225
 	0    1    1    0   
 $EndComp
 $Comp
@@ -156,17 +156,6 @@ Wire Wire Line
 	5575 2200 5575 2325
 Wire Wire Line
 	5575 1400 5575 1475
-$Comp
-L ruler-rescue:switches_SW_Push SW2
-U 1 1 5AF1BC93
-P 3425 1375
-F 0 "SW2" H 3475 1475 50  0000 L CNN
-F 1 "EVQPE1" H 3425 1315 50  0000 C CNN
-F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_EVQPE1" H 3425 1575 50  0001 C CNN
-F 3 "" H 3425 1575 50  0001 C CNN
-	1    3425 1375
-	1    0    0    -1  
-$EndComp
 $Comp
 L ruler-rescue:device_R R4
 U 1 1 5AF1BC99
@@ -209,12 +198,12 @@ Wire Wire Line
 $Comp
 L ruler-rescue:switches_SW_Push SW3
 U 1 1 5AF1BCB7
-P 5175 1150
-F 0 "SW3" H 5225 1250 50  0000 L CNN
-F 1 "B3U1000P" H 5175 1090 50  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 5175 1350 50  0001 C CNN
-F 3 "" H 5175 1350 50  0001 C CNN
-	1    5175 1150
+P 3400 1375
+F 0 "SW3" H 3450 1475 50  0000 L CNN
+F 1 "B3U1000P" H 3400 1315 50  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_Tactile_SMD_B3U-1000P" H 3400 1575 50  0001 C CNN
+F 3 "" H 3400 1575 50  0001 C CNN
+	1    3400 1375
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -378,40 +367,23 @@ Text GLabel 4600 1250 0    50   Input ~ 0
 SW_V+
 Text GLabel 3150 1375 0    50   Input ~ 0
 SW_V+
-Wire Wire Line
-	3150 1375 3200 1375
 $Comp
 L ruler-rescue:switches_SW_Push SW1
 U 1 1 5AF21638
-P 4375 2925
-F 0 "SW1" H 4150 3125 50  0000 L CNN
-F 1 "KMR2" H 4375 2865 50  0000 C CNN
-F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_KMR2" H 4375 3125 50  0001 C CNN
-F 3 "" H 4375 3125 50  0001 C CNN
-	1    4375 2925
+P 3400 1025
+F 0 "SW1" H 3175 1225 50  0000 L CNN
+F 1 "KMR2" H 3400 965 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_KMR2" H 3400 1225 50  0001 C CNN
+F 3 "" H 3400 1225 50  0001 C CNN
+	1    3400 1025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4975 1150 4650 1150
-Wire Wire Line
-	4650 1150 4650 1250
-Wire Wire Line
 	4600 1250 4650 1250
-Connection ~ 4650 1250
 Wire Wire Line
 	4650 1250 4650 1400
-Wire Wire Line
-	5375 1150 5450 1150
-Wire Wire Line
-	5450 1150 5450 1400
-Connection ~ 5450 1400
-Wire Wire Line
-	5450 1400 5575 1400
 Text GLabel 3850 850  1    50   Input ~ 0
 LED_V+
-Wire Wire Line
-	3200 1025 3200 1375
-Connection ~ 3200 1375
 Wire Wire Line
 	3625 1375 3625 1025
 Wire Wire Line
@@ -480,7 +452,6 @@ Wire Wire Line
 	7300 1300 7300 1325
 Wire Wire Line
 	7300 1325 7150 1325
-Connection ~ 7150 1325
 Text GLabel 9075 950  1    50   Input ~ 0
 LED_V+
 $Comp
@@ -525,8 +496,6 @@ F 3 "" H 4800 2750 50  0001 C CNN
 	1    4800 2750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3225 1375 3200 1375
 $Comp
 L ruler-rescue:switches_SW_Push SW6
 U 1 1 5AF214E5
@@ -545,60 +514,18 @@ Wire Wire Line
 $Comp
 L ruler-rescue:switches_SW_Push_Dual SW5
 U 1 1 5AF1AB0F
-P 5250 1675
-F 0 "SW5" H 5325 1750 50  0000 L CNN
-F 1 "TL3315" H 5250 1615 50  0000 C CNN
-F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 5250 1875 50  0001 C CNN
-F 3 "" H 5250 1875 50  0001 C CNN
-	1    5250 1675
+P 4450 3775
+F 0 "SW5" H 4525 3850 50  0000 L CNN
+F 1 "TL3315" H 4450 3715 50  0000 C CNN
+F 2 "digikey/digikey-kicad-library/digikey-footprints.pretty:Switch_4.5x4.5mm_SMD_TL3315NF160Q" H 4450 3975 50  0001 C CNN
+F 3 "" H 4450 3975 50  0001 C CNN
+	1    4450 3775
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4650 1400 5050 1400
-Wire Wire Line
-	5250 1400 5450 1400
-Wire Wire Line
-	5050 1400 5050 1475
-Connection ~ 5050 1475
-Wire Wire Line
-	5050 1475 5050 1875
-Wire Wire Line
-	5250 1400 5250 1475
-Connection ~ 5250 1475
-Wire Wire Line
-	5250 1475 5250 1875
-Wire Wire Line
-	6500 1325 6750 1325
-Wire Wire Line
-	6950 1325 7150 1325
-Wire Wire Line
-	6750 1325 6750 1400
-Wire Wire Line
-	6950 1325 6950 1400
-Wire Wire Line
-	6750 1400 6625 1400
-Wire Wire Line
-	6625 1400 6625 1600
+	6500 1325 6625 1325
 Wire Wire Line
 	7150 1700 7150 1825
-Wire Wire Line
-	6950 1400 7025 1400
-Wire Wire Line
-	7025 1400 7025 1600
-Wire Wire Line
-	6725 1650 6725 2050
-Wire Wire Line
-	6925 1650 6925 2050
-Wire Wire Line
-	6625 1600 6725 1600
-Wire Wire Line
-	6725 1600 6725 1650
-Connection ~ 6725 1650
-Wire Wire Line
-	6925 1650 6925 1600
-Wire Wire Line
-	6925 1600 7025 1600
-Connection ~ 6925 1650
 $Comp
 L ruler-rescue:conn_Conn_01x01 U1
 U 1 1 5AF35EB6
@@ -1156,20 +1083,18 @@ Wire Wire Line
 $Comp
 L ruler-rescue:switches_SW_Push SW8
 U 1 1 5B70AFF0
-P 3400 1025
-F 0 "SW8" H 3450 1125 50  0000 L CNN
-F 1 "KSR223" H 3400 965 50  0000 C CNN
-F 2 "OpenMusicKontrollers/omk.pretty:KSR" H 3400 1225 50  0001 C CNN
-F 3 "" H 3400 1225 50  0001 C CNN
-	1    3400 1025
+P 5150 1400
+F 0 "SW8" H 5200 1500 50  0000 L CNN
+F 1 "KSR223" H 5150 1340 50  0000 C CNN
+F 2 "OpenMusicKontrollers/omk.pretty:KSR" H 5150 1600 50  0001 C CNN
+F 3 "" H 5150 1600 50  0001 C CNN
+	1    5150 1400
 	1    0    0    -1  
 $EndComp
 Text GLabel 4100 2925 0    50   Input ~ 0
 SW_V+
 Text GLabel 4800 2400 1    50   Input ~ 0
 LED_V+
-Wire Wire Line
-	4575 2925 4650 2925
 Wire Wire Line
 	4800 2400 4800 2600
 Wire Wire Line
@@ -1180,5 +1105,58 @@ Connection ~ 4650 2925
 Wire Wire Line
 	4650 3300 4650 3425
 Wire Wire Line
-	4100 2925 4175 2925
+	7025 1325 7150 1325
+Connection ~ 7150 1325
+Wire Wire Line
+	3600 1375 3625 1375
+Wire Wire Line
+	3200 1375 3175 1375
+Wire Wire Line
+	3175 1375 3175 1025
+Wire Wire Line
+	3175 1025 3200 1025
+Connection ~ 3175 1375
+Wire Wire Line
+	3175 1375 3150 1375
+Wire Wire Line
+	4100 2925 4250 2925
+Wire Wire Line
+	4250 2925 4250 3025
+Connection ~ 4250 3025
+Wire Wire Line
+	4250 3025 4250 3425
+Wire Wire Line
+	4450 3425 4450 3025
+Wire Wire Line
+	4450 2925 4650 2925
+Connection ~ 4450 3025
+Wire Wire Line
+	4450 3025 4450 2925
+Connection ~ 4250 3425
+Connection ~ 4450 3425
+Wire Wire Line
+	4250 3425 4250 3575
+Connection ~ 4250 3575
+Wire Wire Line
+	4250 3575 4250 3975
+Wire Wire Line
+	4450 3425 4450 3575
+Connection ~ 4450 3575
+Wire Wire Line
+	4450 3575 4450 3975
+Wire Wire Line
+	4650 1400 4950 1400
+$Comp
+L ruler-rescue:switches_SW_Push SW2
+U 1 1 5AF1BC93
+P 6825 1325
+F 0 "SW2" H 6875 1425 50  0000 L CNN
+F 1 "EVQPE1" H 6825 1265 50  0000 C CNN
+F 2 "KiCad/Buttons_Switches_SMD.pretty:SW_SPST_EVQPE1" H 6825 1525 50  0001 C CNN
+F 3 "" H 6825 1525 50  0001 C CNN
+	1    6825 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1400 5575 1400
 $EndSCHEMATC
