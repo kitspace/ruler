@@ -553,7 +553,7 @@ L ruler-rescue:conn_Conn_01x01 U3
 U 1 1 5AF36193
 P 1600 4800
 F 0 "U3" H 1680 4842 50  0000 L CNN
-F 1 "SOIC" H 1680 4751 50  0000 L CNN
+F 1 "SOIC-8" H 1680 4751 50  0000 L CNN
 F 2 "adamgreig/agg-kicad/agg.pretty:SOIC-8" H 1600 4800 50  0001 C CNN
 F 3 "~" H 1600 4800 50  0001 C CNN
 	1    1600 4800
@@ -619,7 +619,7 @@ L ruler-rescue:conn_Conn_01x01 U5
 U 1 1 5AF36C48
 P 1625 5375
 F 0 "U5" H 1705 5417 50  0000 L CNN
-F 1 "TSSOP 3x3mm" H 1705 5326 50  0000 L CNN
+F 1 "TSSOP" H 1705 5326 50  0000 L CNN
 F 2 "KiCad/Housings_SSOP.pretty:TSSOP-8_3x3mm_Pitch0.65mm" H 1625 5375 50  0001 C CNN
 F 3 "~" H 1625 5375 50  0001 C CNN
 	1    1625 5375
@@ -1015,7 +1015,7 @@ L ruler-rescue:conn_Conn_01x01 U17
 U 1 1 5B0210DE
 P 4050 7600
 F 0 "U17" H 4130 7642 50  0000 L CNN
-F 1 "TSSOP 4.4x3mm" H 4130 7551 50  0000 L CNN
+F 1 "TSSOP" H 4130 7551 50  0000 L CNN
 F 2 "KiCad/Housings_SSOP.pretty:TSSOP-8_4.4x3mm_Pitch0.65mm" H 4050 7600 50  0001 C CNN
 F 3 "~" H 4050 7600 50  0001 C CNN
 	1    4050 7600
@@ -1182,14 +1182,25 @@ F 3 "~" H 800 7575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ruler-rescue:conn_Conn_01x01 U?
+L ruler-rescue:conn_Conn_01x01 U22
 U 1 1 5B78C4A4
 P 2900 6525
-F 0 "U?" H 2980 6567 50  0000 L CNN
+F 0 "U22" H 2980 6567 50  0000 L CNN
 F 1 "SOIC-16" H 2980 6476 50  0000 L CNN
-F 2 "KiCad/TO_SOT_Packages_SMD.pretty:TO-277A" H 2900 6525 50  0001 C CNN
+F 2 "adamgreig/agg-kicad/agg.pretty:SOIC-16" H 2900 6525 50  0001 C CNN
 F 3 "~" H 2900 6525 50  0001 C CNN
 	1    2900 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L ruler-rescue:conn_Conn_01x01 U23
+U 1 1 5B78E51B
+P 4050 6325
+F 0 "U23" H 4130 6367 50  0000 L CNN
+F 1 "SOT563" H 4130 6276 50  0000 L CNN
+F 2 "digikey/digikey-kicad-library/src/Source_Footprints:SOT-563" H 4050 6325 50  0001 C CNN
+F 3 "~" H 4050 6325 50  0001 C CNN
+	1    4050 6325
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
