@@ -7,6 +7,8 @@ A PCB design reference ruler made using Inkscape, [svg2shenzhen](https://github.
 - There are also pads for testing LED polarity.
 - It's in a panel to show off two different ways to attach designs within a panel: mouse-bites and v-score. These are indicated on the back as well.
 
+![](front_no_panel.jpg)
+![](back_no_panel.jpg)
 ![](front.jpg)
 ![](back.jpg)
 
