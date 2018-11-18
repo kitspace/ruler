@@ -11,6 +11,9 @@ A PCB design reference ruler made using Inkscape, [svg2shenzhen](https://github.
 ![](back_no_panel.jpg)
 ![](front.jpg)
 ![](back.jpg)
+![](front_populated.png)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yOuZpUTyYj4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## License
 
