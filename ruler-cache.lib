@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ruler-rescue:Switch_SW_DPDT_x2
+# ruler-rescue_Switch_SW_DPDT_x2
 #
-DEF ruler-rescue:Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
+DEF ruler-rescue_Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "ruler-rescue:Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
+F1 "ruler-rescue_Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -25,11 +25,11 @@ X C 6 200 -100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:conn_Conn_01x01
+# ruler-rescue_conn_Conn_01x01
 #
-DEF ruler-rescue:conn_Conn_01x01 J 0 40 Y N 1 F N
+DEF ruler-rescue_conn_Conn_01x01 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "ruler-rescue:conn_Conn_01x01" 0 -100 50 H V C CNN
+F1 "ruler-rescue_conn_Conn_01x01" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -47,11 +47,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:conn_USB_OTG
+# ruler-rescue_conn_USB_OTG
 #
-DEF ruler-rescue:conn_USB_OTG J 0 40 Y Y 1 F N
+DEF ruler-rescue_conn_USB_OTG J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "ruler-rescue:conn_USB_OTG" -200 350 50 H V L CNN
+F1 "ruler-rescue_conn_USB_OTG" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -82,11 +82,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:device_CP
+# ruler-rescue_device_CP
 #
-DEF ruler-rescue:device_CP C 0 10 N Y 1 F N
+DEF ruler-rescue_device_CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "ruler-rescue:device_CP" 25 -100 50 H V L CNN
+F1 "ruler-rescue_device_CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -105,11 +105,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:device_D
+# ruler-rescue_device_D
 #
-DEF ruler-rescue:device_D D 0 40 N N 1 F N
+DEF ruler-rescue_device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ruler-rescue:device_D" 0 -100 50 H V C CNN
+F1 "ruler-rescue_device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:device_LED
+# ruler-rescue_device_LED
 #
-DEF ruler-rescue:device_LED D 0 40 Y N 1 F N
+DEF ruler-rescue_device_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "ruler-rescue:device_LED" 0 -100 50 H V C CNN
+F1 "ruler-rescue_device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -149,11 +149,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:device_Q_NMOS_DGS
+# ruler-rescue_device_Q_NMOS_DGS
 #
-DEF ruler-rescue:device_Q_NMOS_DGS Q 0 0 Y N 1 F N
+DEF ruler-rescue_device_Q_NMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "ruler-rescue:device_Q_NMOS_DGS" 200 -50 50 H V L CNN
+F1 "ruler-rescue_device_Q_NMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -181,11 +181,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:device_R
+# ruler-rescue_device_R
 #
-DEF ruler-rescue:device_R R 0 0 N Y 1 F N
+DEF ruler-rescue_device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "ruler-rescue:device_R" 0 0 50 V V C CNN
+F1 "ruler-rescue_device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -199,11 +199,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:power_+5V
+# ruler-rescue_power_+5V
 #
-DEF ruler-rescue:power_+5V #PWR 0 0 Y Y 1 F P
+DEF ruler-rescue_power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "ruler-rescue:power_+5V" 0 140 50 H V C CNN
+F1 "ruler-rescue_power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -214,11 +214,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:power_GND
+# ruler-rescue_power_GND
 #
-DEF ruler-rescue:power_GND #PWR 0 0 Y Y 1 F P
+DEF ruler-rescue_power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "ruler-rescue:power_GND" 0 -150 50 H V C CNN
+F1 "ruler-rescue_power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -227,11 +227,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:pspice_INDUCTOR
+# ruler-rescue_pspice_INDUCTOR
 #
-DEF ruler-rescue:pspice_INDUCTOR L 0 0 N Y 1 F N
+DEF ruler-rescue_pspice_INDUCTOR L 0 0 N Y 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "ruler-rescue:pspice_INDUCTOR" 0 -50 50 H V C CNN
+F1 "ruler-rescue_pspice_INDUCTOR" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -244,11 +244,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:switches_SW_Push
+# ruler-rescue_switches_SW_Push
 #
-DEF ruler-rescue:switches_SW_Push SW 0 40 N N 1 F N
+DEF ruler-rescue_switches_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "ruler-rescue:switches_SW_Push" 0 -60 50 H V C CNN
+F1 "ruler-rescue_switches_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -261,11 +261,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# ruler-rescue:switches_SW_Push_Dual
+# ruler-rescue_switches_SW_Push_Dual
 #
-DEF ruler-rescue:switches_SW_Push_Dual SW 0 40 Y N 1 F N
+DEF ruler-rescue_switches_SW_Push_Dual SW 0 40 Y N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "ruler-rescue:switches_SW_Push_Dual" 0 -270 50 H V C CNN
+F1 "ruler-rescue_switches_SW_Push_Dual" 0 -270 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
