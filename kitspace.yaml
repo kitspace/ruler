@@ -1,2 +1,6 @@
 color: white
 bom: 1-click-bom.csv
+eda:
+  type: kicad
+  pcb: ruler.kicad_pcb
+  schematic: ruler.sch
