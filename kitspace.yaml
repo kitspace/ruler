@@ -1,4 +1,4 @@
-color: white
+color: black
 bom: 1-click-bom.csv
 eda:
   type: kicad
