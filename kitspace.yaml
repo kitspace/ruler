@@ -1,5 +1,6 @@
 color: black
 bom: 1-click-bom.csv
+gerbers: gerbers/
 eda:
   type: kicad
   pcb: ruler.kicad_pcb
